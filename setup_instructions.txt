@@ -1,0 +1,10 @@
+Install mujoco from deepmind, extract it to ~/.mujoco/mujoco210
+Add this bin to PATH
+
+Create new anaconda env
+pip install gymnasium-robotics
+pip install imageio
+pip install gym[mujoco]
+conda install -c anaconda ffmpeg
+conda install scipy
+pip install tqdm
